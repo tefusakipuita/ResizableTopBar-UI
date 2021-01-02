@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE45D2EA256E83D300C161BE /* ResizableTopBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2E9256E83D300C161BE /* ResizableTopBarApp.swift */; };
+		EE45D2EC256E83D300C161BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2EB256E83D300C161BE /* ContentView.swift */; };
+		EE45D2EE256E83D500C161BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE45D2ED256E83D500C161BE /* Assets.xcassets */; };
+		EE45D2F1256E83D500C161BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE45D2F0256E83D500C161BE /* Preview Assets.xcassets */; };
+		EE45D306256E91BC00C161BE /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D305256E91BC00C161BE /* TabButton.swift */; };
+		EE45D309256EAB7E00C161BE /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D308256EAB7E00C161BE /* UserRow.swift */; };
+		EE45D30C256EB83900C161BE /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D30B256EB83900C161BE /* PageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE45D2E6256E83D300C161BE /* ResizableTopBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizableTopBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE45D2E9256E83D300C161BE /* ResizableTopBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableTopBarApp.swift; sourceTree = "<group>"; };
+		EE45D2EB256E83D300C161BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE45D2ED256E83D500C161BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE45D2F0256E83D500C161BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE45D2F2256E83D500C161BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE45D305256E91BC00C161BE /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		EE45D308256EAB7E00C161BE /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		EE45D30B256EB83900C161BE /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE45D2E3256E83D300C161BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE45D2DD256E83D300C161BE = {
+			isa = PBXGroup;
+			children = (
+				EE45D2E8256E83D300C161BE /* ResizableTopBar */,
+				EE45D2E7256E83D300C161BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE45D2E7256E83D300C161BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2E6256E83D300C161BE /* ResizableTopBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE45D2E8256E83D300C161BE /* ResizableTopBar */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2FA256E83E500C161BE /* View */,
+				EE45D2F9256E83D800C161BE /* App */,
+				EE45D2ED256E83D500C161BE /* Assets.xcassets */,
+				EE45D2F2256E83D500C161BE /* Info.plist */,
+				EE45D2EF256E83D500C161BE /* Preview Content */,
+			);
+			path = ResizableTopBar;
+			sourceTree = "<group>";
+		};
+		EE45D2EF256E83D500C161BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2F0256E83D500C161BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE45D2F9256E83D800C161BE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2E9256E83D300C161BE /* ResizableTopBarApp.swift */,
+				EE45D2EB256E83D300C161BE /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE45D2FA256E83E500C161BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D30B256EB83900C161BE /* PageView.swift */,
+				EE45D305256E91BC00C161BE /* TabButton.swift */,
+				EE45D308256EAB7E00C161BE /* UserRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE45D2E5256E83D300C161BE /* ResizableTopBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE45D2F5256E83D500C161BE /* Build configuration list for PBXNativeTarget "ResizableTopBar" */;
+			buildPhases = (
+				EE45D2E2256E83D300C161BE /* Sources */,
+				EE45D2E3256E83D300C161BE /* Frameworks */,
+				EE45D2E4256E83D300C161BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizableTopBar;
+			productName = ResizableTopBar;
+			productReference = EE45D2E6256E83D300C161BE /* ResizableTopBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE45D2DE256E83D300C161BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EE45D2E5256E83D300C161BE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EE45D2E1256E83D300C161BE /* Build configuration list for PBXProject "ResizableTopBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE45D2DD256E83D300C161BE;
+			productRefGroup = EE45D2E7256E83D300C161BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE45D2E5256E83D300C161BE /* ResizableTopBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE45D2E4256E83D300C161BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE45D2F1256E83D500C161BE /* Preview Assets.xcassets in Resources */,
+				EE45D2EE256E83D500C161BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE45D2E2256E83D300C161BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE45D30C256EB83900C161BE /* PageView.swift in Sources */,
+				EE45D2EC256E83D300C161BE /* ContentView.swift in Sources */,
+				EE45D306256E91BC00C161BE /* TabButton.swift in Sources */,
+				EE45D309256EAB7E00C161BE /* UserRow.swift in Sources */,
+				EE45D2EA256E83D300C161BE /* ResizableTopBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE45D2F3256E83D500C161BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE45D2F4256E83D500C161BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE45D2F6256E83D500C161BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResizableTopBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ResizableTopBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tefusakipuita.ResizableTopBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE45D2F7256E83D500C161BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResizableTopBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ResizableTopBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tefusakipuita.ResizableTopBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE45D2E1256E83D300C161BE /* Build configuration list for PBXProject "ResizableTopBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE45D2F3256E83D500C161BE /* Debug */,
+				EE45D2F4256E83D500C161BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE45D2F5256E83D500C161BE /* Build configuration list for PBXNativeTarget "ResizableTopBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE45D2F6256E83D500C161BE /* Debug */,
+				EE45D2F7256E83D500C161BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE45D2DE256E83D300C161BE /* Project object */;
+}
